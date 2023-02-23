@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    text-align: center;
+    background-color: #009bb3;
+}
+nav h5 {
+    color: #072ad9;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #d6d5d5;
+}
+.main{
+    width: 1000px;
+    height: 525px;
+    margin: 0 auto;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+.comon{
+    width: 200px;
+    height: 75px;
+    transition: 0.5s;
+}
+.comon:hover{
+    background-color: #ed133e;
+    color: #f1f1f1;
+}
+.comon a{
+    padding-top: 6px;
+    color: #1f1e1e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.comon:hover a{
+    color: #f1f1f1;
+}
+.comon a span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sub_day1 h1 {
+    position: absolute;
+    left: 215px;
+    top: -15px;
+    width: 600px;
+    height: 525px;
+    line-height: 525px;
+    color: #1a53ae;
+    font-family: 'Labrada', serif;
+    font-size: 130px;
+    font-weight: 700;
+    transition:  0.3s;
+    transform: scale(0);
+}
+.day1:hover .sub_day1 h1{
+    transform: scale(1);
+    transition:  0.9s;
+}
+.sub_day2 h1 {
+    position: absolute;
+    left: 215px;
+    top: -15px;
+    width: 600px;
+    height: 525px;
+    line-height: 525px;
+    color: #16a1c7;
+    font-family: 'Labrada', serif;
+    font-size: 130px;
+    font-weight: 700;
+    transition:  0.3s;
+    transform: scale(0);
+}
+.day2:hover .sub_day2 h1{
+    transform: scale(1);
+    transition:  0.9s;
+}
+.sub_day3 h1 {
+    position: absolute;
+    left: 215px;
+    top: -15px;
+    width: 600px;
+    height: 525px;
+    line-height: 525px;
+    color: #01cb5c;
+    font-family: 'Labrada', serif;
+    font-size: 130px;
+    font-weight: 700;
+    transition:  0.3s;
+    transform: scale(0);
+}
+.day3:hover .sub_day3 h1{
+    transform: scale(1);
+    transition:  0.9s;
+}
+.sub_day4 h1 {
+    position: absolute;
+    left: 215px;
+    top: -15px;
+    width: 600px;
+    height: 525px;
+    line-height: 525px;
+    color: #5702ae;
+    font-family: 'Labrada', serif;
+    font-size: 130px;
+    font-weight: 700;
+    transition:  0.3s;
+    transform: scale(0);
+}
+.day4:hover .sub_day4 h1{
+    transform: scale(1);
+    transition:  0.9s;
+}
+.sub_day5 h1 {
+    position: absolute;
+    left: 215px;
+    top: -15px;
+    width: 600px;
+    height: 525px;
+    line-height: 525px;
+    color: #072ad9;
+    font-family: 'Labrada', serif;
+    font-size: 130px;
+    font-weight: 700;
+    transition:  0.3s;
+    transform: scale(0);
+}
+.day5:hover .sub_day5 h1{
+    transform: scale(1);
+    transition:  0.9s;
+}
+.sub_day6 h1 {
+    position: absolute;
+    left: 215px;
+    top: -15px;
+    width: 600px;
+    height: 525px;
+    line-height: 525px;
+    color: #b847a0;
+    font-family: 'Labrada', serif;
+    font-size: 110px;
+    font-weight: 700;
+    transition:  0.3s;
+    transform: scale(0);
+}
+.day6:hover .sub_day6 h1{
+    transform: scale(1);
+    transition:  0.9s;
+}
+.sub_day7 h1 {
+    position: absolute;
+    left: 215px;
+    top: -15px;
+    width: 600px;
+    height: 525px;
+    line-height: 525px;
+    color: #009bb3;
+    font-family: 'Labrada', serif;
+    font-size: 130px;
+    font-weight: 700;
+    transition:  0.3s;
+    transform: scale(0);
+}
+.day7:hover .sub_day7 h1{
+    transform: scale(1);
+    transition:  0.9s;
+}
+.result{
+    width: 200px;
+    height: 75px;
+}
+.result ul li{
+    padding-top: 6px;
+    color: #1f1e1e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.result ul li span{
+    color: #1f1e1e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+footer{
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px 0;
+    background-color: #1f1e1e;
+}
+footer h3{
+    padding-left: 40px;
+    color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+footer h3 span{
+    color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
